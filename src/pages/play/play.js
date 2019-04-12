@@ -1,19 +1,19 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View } from '@tarojs/components'
-import './index.css'
+import './play.css'
 
 // 组件
-import MySwiper from './../../components/Swiper/Swiper'
-import Nav from './../../components/Nav/Nav'
-import Search from './../../components/Search/Search'
-import VedioList from './../../components/VedioList/VedioList'
-import OneRecomment from './../../components/OneRecomment/OneRecomment'
-import NewMovieList from './../../components/NewMovieList/NewMovieList'
+import MySwiper from '../../components/Swiper/Swiper'
+import Nav from '../../components/Nav/Nav'
+import Search from '../../components/Search/Search'
+import VedioList from '../../components/VedioList/VedioList'
+import OneRecomment from '../../components/OneRecomment/OneRecomment'
+import NewMovieList from '../../components/NewMovieList/NewMovieList'
 
 export default class Index extends Component {
   // static externalClasses = ['ser-hidden', 'ser-show']
   config = {
-    navigationBarTitleText: '首页'
+    navigationBarTitleText: '播放'
   }
 
   constructor(){

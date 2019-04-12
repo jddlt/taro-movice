@@ -11,13 +11,51 @@ import './app.css'
 class App extends Component {
   config = {
     pages: [
-      'pages/index/index'
+      'pages/index/index',
+      'pages/type/type',
+      'pages/play/play',
+      'pages/talk/talk',
+      'pages/mine/mine'
     ],
     window: {
       backgroundTextStyle: 'light',
       navigationBarBackgroundColor: '#fff',
       navigationBarTitleText: 'WeChat',
       navigationBarTextStyle: 'black'
+    },
+    tabBar: {
+      list: [
+        {
+          pagePath: 'pages/index/index',
+          text: '首页',
+          iconPath: './static/images/icon_home.png',
+          selectedIconPath: './static/images/icon_home_selected.png'
+        },
+        {
+          pagePath: 'pages/type/type',
+          text: '分类',
+          iconPath: './static/images/icon_intro.png',
+          selectedIconPath: './static/images/icon_intro_selected.png'
+        },
+        {
+          pagePath: 'pages/play/play',
+          text: '播放',
+          iconPath: './static/images/icon_search.png',
+          selectedIconPath: './static/images/icon_search_selected.png'
+        },
+        {
+          pagePath: 'pages/talk/talk',
+          text: '社区',
+          iconPath: './static/images/icon_chat.png',
+          selectedIconPath: './static/images/icon_chat_selected.png'
+        },
+        {
+          pagePath: 'pages/mine/mine',
+          text: '我的',
+          iconPath: './static/images/icon_mine.png',
+          selectedIconPath: './static/images/icon_mine_selected.png'
+        }
+      ]
     }
   }
 

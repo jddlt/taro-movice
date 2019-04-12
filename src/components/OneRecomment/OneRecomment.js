@@ -11,7 +11,7 @@ export default class OneRecomment extends Component{
             </View>
             <View class="home-one-recomment-photo">
               <Image className="img" src="https://manhua.qpic.cn/operation/0/12_21_47_fb128483361b6c3de7a96b56411d0573_1534081656643.jpg/0"
-                   alt="每日一推"
+                   alt="每日一推" mode="widthFix"
                    ></Image>
             </View>
           </View>

@@ -33,6 +33,7 @@
 }
 .home-new-photo-list-left{
     flex: 1;
+    display: inline-block;
 }
 .img{
     width: 100%;

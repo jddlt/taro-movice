@@ -1,5 +1,5 @@
 import Taro, { Component } from '@tarojs/taro'
-import { View, Image, Text, Button } from '@tarojs/components'
+import { View, Image, Text, Button, Icon } from '@tarojs/components'
 import './NewMovieList.css'
 import './../../static/css/iconfont.css'
 
@@ -19,7 +19,7 @@ export default class NewMovieList extends Component {
                     <View class="home-new-photo-list">
                         <View class="home-new-photo-list-left">
                             <Image src="https://manhua.qpic.cn/vertical/0/10_15_46_a11b956e3a15baba84c9c60bd1cb73f5_1544427991833.jpg/210"
-                                alt="最新更新" className="img"></Image>
+                                alt="最新更新" className="img" mode="widthFix"></Image>
                         </View>
                         <View class="home-new-photo-list-right">
                             <View className="h3">快意十三刀</View>
@@ -31,7 +31,7 @@ export default class NewMovieList extends Component {
                     <View class="home-new-photo-list">
                         <View class="home-new-photo-list-left">
                             <Image src="https://manhua.qpic.cn/vertical/0/31_16_33_1069f52a9fc1cf96376759e9f59ec4c6_1496219621214.jpg/210"
-                                alt="最新更新" className="img"></Image>
+                                alt="最新更新" className="img" mode="widthFix"></Image>
                         </View>
                         <View class="home-new-photo-list-right">
                             <View className="h3">颜值恋</View>
@@ -43,7 +43,7 @@ export default class NewMovieList extends Component {
                     <View class="home-new-photo-list">
                         <View class="home-new-photo-list-left">
                             <Image src="https://manhua.qpic.cn/vertical/0/08_11_26_70333698a38b7f361e3504c981bbba94_1496892374440.jpg/210"
-                                alt="最新更新" className="img"></Image>
+                                alt="最新更新" className="img" mode="widthFix"></Image>
                         </View>
                         <View class="home-new-photo-list-right">
                             <View className="h3">银之守墓人</View>
