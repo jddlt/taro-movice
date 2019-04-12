@@ -7,6 +7,8 @@ import MySwiper from './../../components/Swiper/Swiper'
 import Nav from './../../components/Nav/Nav'
 import Search from './../../components/Search/Search'
 import VedioList from './../../components/VedioList/VedioList'
+import OneRecomment from './../../components/OneRecomment/OneRecomment'
+import NewMovieList from './../../components/NewMovieList/NewMovieList'
 
 export default class Index extends Component {
 
@@ -42,6 +44,9 @@ export default class Index extends Component {
         <Nav onSetDis={this.setDisplay}></Nav>
         <MySwiper></MySwiper>
         <VedioList></VedioList>
+        <OneRecomment></OneRecomment>
+        <NewMovieList></NewMovieList>
+
         <Search style={this.state.display ? 'display: none' : 'display: block'} onSetDisplay={this.setDisplay}></Search>
       </View>
     )

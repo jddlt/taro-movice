@@ -1,5 +1,5 @@
 import Taro, { Component } from '@tarojs/taro';
-import { View, Image, Icon } from '@tarojs/components';
+import { View, Image, Icon , Text} from '@tarojs/components';
 import './VedioList.css'
 import './../../static/css/iconfont.css'
 
@@ -13,7 +13,10 @@ export default class Nav extends Component {
             <View class="home-recomment">
                 <View class="home-recomment-title">
                     <Text class="home-recomment-title-left">热门动漫</Text>
-                    <Icon class="home-recomment-title-right iconfont icon-gengduo"></Icon>
+                    <Icon 
+                        class="home-recomment-title-right iconfont icon-gengduo"
+                        style="width: 11px; height: 6px; font-size: 21px;"
+                    ></Icon>
                 </View>
                 <View class="home-recomment-vedio">
                     <View className="div">

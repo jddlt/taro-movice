@@ -1,0 +1,18 @@
+.home-recomment{
+    width: 100%;
+    height: auto;
+    margin-top: 8rpx;
+}
+.home-recomment-title{
+    width: 100%;
+    height: 74rpx;
+    line-height: 70rpx;
+}
+.home-one-recomment-photo{
+    width: 100%;
+    margin-top: 20px;
+}
+.img{
+    width: 100%;
+    height: 360px;
+}
