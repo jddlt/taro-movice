@@ -1,11 +1,12 @@
 import Taro, { Component } from '@tarojs/taro'
-import { View, Text } from '@tarojs/components'
+import { View } from '@tarojs/components'
 import './index.css'
 
 // 组件
 import MySwiper from './../../components/Swiper/Swiper'
 import Nav from './../../components/Nav/Nav'
 import Search from './../../components/Search/Search'
+import VedioList from './../../components/VedioList/VedioList'
 
 export default class Index extends Component {
 
@@ -40,6 +41,7 @@ export default class Index extends Component {
       <View className='index'>
         <Nav onSetDis={this.setDisplay}></Nav>
         <MySwiper></MySwiper>
+        <VedioList></VedioList>
         <Search style={this.state.display ? 'display: none' : 'display: block'} onSetDisplay={this.setDisplay}></Search>
       </View>
     )
