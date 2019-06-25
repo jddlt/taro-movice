@@ -22,6 +22,7 @@ export default class NewMovieList extends Component {
                                 alt="最新更新" className="img" mode="widthFix"></Image>
                         </View>
                         <View class="home-new-photo-list-right">
+                            <View>Develop</View>
                             <View className="h3">快意十三刀</View>
                             <View className="p">作者：月饼</View>
                             <View className="p">更新到96话</View>
