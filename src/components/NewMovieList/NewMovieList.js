@@ -25,7 +25,7 @@ export default class NewMovieList extends Component {
                             <View>Develop</View>
                             <View className="h3">快意十三刀</View>
                             <View className="p">作者：月饼</View>
-                            <View className="p">更新到96话2</View>
+                            <View className="p">更新到96话1</View>
                             <Button className="button">播放</Button>
                         </View>
                     </View>
