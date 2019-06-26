@@ -3,7 +3,7 @@ import { View, Image, Text, Button, Icon } from '@tarojs/components'
 import './NewMovieList.css'
 import './../../static/css/iconfont.css'
 
-
+// DEvelop
 export default class NewMovieList extends Component {
     render() {
         return (
